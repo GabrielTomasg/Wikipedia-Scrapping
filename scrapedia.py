@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup as Bs
 import requests
 from tkinter import *
-def pesquisa(): #req google pesquisa
+def pesquisa(): #wikipedia pesquisa
     try:
         pesq = ent1.get()
         request = requests.get(f'https://pt.wikipedia.org/wiki/{pesq}')
